@@ -11,9 +11,7 @@ describe('SubmitButton.vue', () => {
                 isAdmin
             }
         })
-
-        console.log(wrapper.html())
-
+        
         expect(wrapper.find("span").text()).toBe("Admin Previleges")
         expect(wrapper.find("button").text()).toBe("submit")
     })

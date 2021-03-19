@@ -9,7 +9,6 @@ describe('PropsTest.vue', () => {
                 msg: msg
             }
         })
-        console.log(wrapper.html())
 
         expect(wrapper.find("span").text()).toBe("Not Authorized")
         expect(wrapper.find("button").text()).toBe("submit")
