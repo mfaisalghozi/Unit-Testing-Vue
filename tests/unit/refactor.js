@@ -1,3 +1,6 @@
+//DEPRECATED FILE, USING ON REFACOTRYFUNCTION.SPEC.JS
+
+
 import {mount} from '@vue/test-utils'
 import ButtonSubmit from '@/components/PropsTest.vue'
 
